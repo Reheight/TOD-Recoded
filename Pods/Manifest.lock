@@ -1,0 +1,131 @@
+PODS:
+  - Firebase/Auth (6.16.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.4.3)
+  - Firebase/CoreOnly (6.16.0):
+    - FirebaseCore (= 6.6.1)
+  - FirebaseAuth (6.4.3):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.6)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (6.6.1):
+    - FirebaseCoreDiagnostics (~> 1.2)
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+  - FirebaseCoreDiagnostics (1.2.0):
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleDataTransportCCTSupport (~> 1.3)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.2.0)
+  - FontAwesome.swift (1.8.3)
+  - GoogleDataTransport (3.3.1)
+  - GoogleDataTransportCCTSupport (1.3.1):
+    - GoogleDataTransport (~> 3.3)
+    - nanopb (~> 0.3.901)
+  - GoogleUtilities/AppDelegateSwizzler (6.5.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.5.1)
+  - GoogleUtilities/Logger (6.5.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (6.5.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.5.1)"
+  - GoogleUtilities/Reachability (6.5.1):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.3.1)
+  - MarqueeLabel (4.0.2)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - NotificationBannerSwift (3.0.2):
+    - MarqueeLabel (~> 4.0.0)
+    - SnapKit (~> 5.0.0)
+  - PINCache (2.3)
+  - PinCodeTextField (0.1.0)
+  - PINOperation (1.1.2)
+  - PMAlertController (4.0.0)
+  - SCLAlertView (0.8)
+  - SnapKit (5.0.1)
+  - SnapSDK (1.4.1):
+    - SnapSDK/SCSDKBitmojiKit (= 1.4.1)
+    - SnapSDK/SCSDKCreativeKit (= 1.4.1)
+    - SnapSDK/SCSDKLoginKit (= 1.4.1)
+    - SnapSDK/SCSDKStoryKit (= 1.4.1)
+  - SnapSDK/SCSDKBitmojiKit (1.4.1):
+    - PINCache (< 3.1, >= 2.3)
+    - PINOperation (~> 1.1)
+  - SnapSDK/SCSDKCreativeKit (1.4.1)
+  - SnapSDK/SCSDKLoginKit (1.4.1)
+  - SnapSDK/SCSDKStoryKit (1.4.1)
+
+DEPENDENCIES:
+  - Firebase/Auth
+  - FontAwesome.swift
+  - NotificationBannerSwift (~> 3.0.0)
+  - PinCodeTextField
+  - PMAlertController
+  - SCLAlertView
+  - SnapSDK
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FontAwesome.swift
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - MarqueeLabel
+    - nanopb
+    - NotificationBannerSwift
+    - PINCache
+    - PinCodeTextField
+    - PINOperation
+    - PMAlertController
+    - SCLAlertView
+    - SnapKit
+    - SnapSDK
+
+SPEC CHECKSUMS:
+  Firebase: 497158b816d0a86fc31babbd05546fcd7e6083ff
+  FirebaseAuth: 5ce2b03a3d7fe56b7a6e4c5ec7ff1522890b1d6f
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: 85064903ed6c28e47fec9c7bd149d94ba1b6b6e7
+  FirebaseCoreDiagnostics: 5e78803ab276bc5b50340e3c539c06c3de35c649
+  FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
+  FontAwesome.swift: 2a3235131a6caffc6b2ccba318e94d793b2fd342
+  GoogleDataTransport: 0048df6388dab1c254799f2a30365b1dffe20422
+  GoogleDataTransportCCTSupport: f880d70972efa2ed1be4e9173a0f4c5f3dc2d176
+  GoogleUtilities: 06eb53bb579efe7099152735900dd04bf09e7275
+  GTMSessionFetcher: cea130bbfe5a7edc8d06d3f0d17288c32ffe9925
+  MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  NotificationBannerSwift: 713e20f21b6105f4a36a00e5d9fa414a930d3d8e
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PinCodeTextField: a3c39be58bde3ed1d6888d0fb1d88b0a4a2277cc
+  PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
+  PMAlertController: 5fad2da8b9eb687134ed50c3462fed12c3afe976
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SnapSDK: 933a5cdafcf6535121aff29bd311c03846b39e1b
+
+PODFILE CHECKSUM: 9b23a5d2442b87d255bc93bafbad880e1ea3c99f
+
+COCOAPODS: 1.8.4
