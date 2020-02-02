@@ -3,10 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018171CF6E3E7FA0350E18A5 /* Pods_truthordareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D234AA6CAD22B51D947D4518 /* Pods_truthordareTests.framework */; };
+		0514A1B023E4EDE6006382EE /* accountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514A1AF23E4EDE6006382EE /* accountViewController.swift */; };
+		0514A1B823E51783006382EE /* PhoneNumberPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0514A1B423E51783006382EE /* PhoneNumberPicker.storyboard */; };
+		0514A1B923E51783006382EE /* PNPMenuDisabledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514A1B523E51783006382EE /* PNPMenuDisabledTextField.swift */; };
+		0514A1BA23E51783006382EE /* PNPHighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514A1B623E51783006382EE /* PNPHighlightButton.swift */; };
+		0514A1BB23E51783006382EE /* PNPSideBordered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514A1B723E51783006382EE /* PNPSideBordered.swift */; };
+		0514A1BE23E51797006382EE /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514A1BC23E51797006382EE /* Countries.swift */; };
+		0514A1BF23E51797006382EE /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514A1BD23E51797006382EE /* Country.swift */; };
+		0514A1C223E517A7006382EE /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514A1C023E517A6006382EE /* CountriesViewController.swift */; };
+		0514A1C323E517A7006382EE /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514A1C123E517A7006382EE /* PhoneNumberViewController.swift */; };
+		05391A6323E3A3D40082D2B2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05391A6223E3A3D40082D2B2 /* SettingsViewController.swift */; };
+		05391A6623E3ADC20082D2B2 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05391A6523E3ADC20082D2B2 /* UserInfoHeader.swift */; };
+		05391A6823E3AFB50082D2B2 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05391A6723E3AFB50082D2B2 /* SettingsCell.swift */; };
+		05391A6E23E3B7750082D2B2 /* SettingsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05391A6D23E3B7750082D2B2 /* SettingsSections.swift */; };
+		0598295723E5C7110039EC29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0598295623E5C7100039EC29 /* GoogleService-Info.plist */; };
+		0598295923E5CCA90039EC29 /* ConfirmNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598295823E5CCA90039EC29 /* ConfirmNumberViewController.swift */; };
 		05D6210423E0D4EA004DFBB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6210323E0D4EA004DFBB7 /* AppDelegate.swift */; };
 		05D6210623E0D4EA004DFBB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6210523E0D4EA004DFBB7 /* SceneDelegate.swift */; };
 		05D6210823E0D4EA004DFBB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6210723E0D4EA004DFBB7 /* ViewController.swift */; };
@@ -15,6 +31,35 @@
 		05D6211023E0D4ED004DFBB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D6210E23E0D4ED004DFBB7 /* LaunchScreen.storyboard */; };
 		05D6211B23E0D4ED004DFBB7 /* truthordareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6211A23E0D4ED004DFBB7 /* truthordareTests.swift */; };
 		05D6212623E0D4ED004DFBB7 /* truthordareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6212523E0D4ED004DFBB7 /* truthordareUITests.swift */; };
+		05D6213823E0DAF4004DFBB7 /* ZhiMangXing-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6213723E0DAF4004DFBB7 /* ZhiMangXing-Regular.ttf */; };
+		05D6214523E0DB5B004DFBB7 /* SigmarOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6214423E0DB5B004DFBB7 /* SigmarOne-Regular.ttf */; };
+		05D6214623E0DB61004DFBB7 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6214023E0DB32004DFBB7 /* TitilliumWeb-Black.ttf */; };
+		05D6214723E0DB61004DFBB7 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6213B23E0DB2F004DFBB7 /* TitilliumWeb-Bold.ttf */; };
+		05D6214823E0DB61004DFBB7 /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6213F23E0DB31004DFBB7 /* TitilliumWeb-BoldItalic.ttf */; };
+		05D6214923E0DB61004DFBB7 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6214123E0DB32004DFBB7 /* TitilliumWeb-ExtraLight.ttf */; };
+		05D6214A23E0DB61004DFBB7 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6213C23E0DB2F004DFBB7 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		05D6214B23E0DB61004DFBB7 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6214323E0DB34004DFBB7 /* TitilliumWeb-Italic.ttf */; };
+		05D6214C23E0DB61004DFBB7 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6213923E0DB2E004DFBB7 /* TitilliumWeb-Light.ttf */; };
+		05D6214D23E0DB61004DFBB7 /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6213A23E0DB2E004DFBB7 /* TitilliumWeb-LightItalic.ttf */; };
+		05D6214E23E0DB61004DFBB7 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6214223E0DB33004DFBB7 /* TitilliumWeb-Regular.ttf */; };
+		05D6214F23E0DB61004DFBB7 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6213E23E0DB31004DFBB7 /* TitilliumWeb-SemiBold.ttf */; };
+		05D6215023E0DB61004DFBB7 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6213D23E0DB30004DFBB7 /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		05D6215223E0DB71004DFBB7 /* Quicksand-VariableFont:wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6215123E0DB71004DFBB7 /* Quicksand-VariableFont:wght.ttf */; };
+		05D6215523E0DBAD004DFBB7 /* PlayfairDisplay-Italic-VariableFont:wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6215323E0DBAC004DFBB7 /* PlayfairDisplay-Italic-VariableFont:wght.ttf */; };
+		05D6215623E0DBAD004DFBB7 /* PlayfairDisplay-VariableFont:wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6215423E0DBAD004DFBB7 /* PlayfairDisplay-VariableFont:wght.ttf */; };
+		05D6215A23E0DBC4004DFBB7 /* OpenSansCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6215723E0DBC3004DFBB7 /* OpenSansCondensed-Bold.ttf */; };
+		05D6215B23E0DBC4004DFBB7 /* OpenSansCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6215823E0DBC3004DFBB7 /* OpenSansCondensed-Light.ttf */; };
+		05D6215C23E0DBC4004DFBB7 /* OpenSansCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6215923E0DBC4004DFBB7 /* OpenSansCondensed-LightItalic.ttf */; };
+		05D6215F23E0DBDA004DFBB7 /* Muli-Italic-VariableFont:wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6215D23E0DBD8004DFBB7 /* Muli-Italic-VariableFont:wght.ttf */; };
+		05D6216023E0DBDA004DFBB7 /* Muli-VariableFont:wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6215E23E0DBD9004DFBB7 /* Muli-VariableFont:wght.ttf */; };
+		05D6216223E0DBEF004DFBB7 /* Bangers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D6216123E0DBEF004DFBB7 /* Bangers-Regular.ttf */; };
+		05D6216423E0E193004DFBB7 /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6216323E0E193004DFBB7 /* DataStructure.swift */; };
+		05D6216623E0E2FA004DFBB7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6216523E0E2FA004DFBB7 /* LoginViewController.swift */; };
+		05F9A6DF23E240C60013EB3F /* ConfirmLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9A6DE23E240C60013EB3F /* ConfirmLoginViewController.swift */; };
+		05F9A6E123E257A70013EB3F /* ConfirmReactivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9A6E023E257A70013EB3F /* ConfirmReactivateViewController.swift */; };
+		05F9A6E323E2631F0013EB3F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9A6E223E2631F0013EB3F /* MenuViewController.swift */; };
+		4D7AF1C10B8BE3A87320C8D9 /* Pods_truthordare_truthordareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDE5EB28EDE51BAFED28BAB /* Pods_truthordare_truthordareUITests.framework */; };
+		A9A73ABD808B24E3E918AAC1 /* Pods_truthordare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739F8895BF8C99EDFAA789C3 /* Pods_truthordare.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +80,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05D6210023E0D4EA004DFBB7 /* truthordare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = truthordare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0514A1AF23E4EDE6006382EE /* accountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountViewController.swift; sourceTree = "<group>"; };
+		0514A1B423E51783006382EE /* PhoneNumberPicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhoneNumberPicker.storyboard; sourceTree = "<group>"; };
+		0514A1B523E51783006382EE /* PNPMenuDisabledTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNPMenuDisabledTextField.swift; sourceTree = "<group>"; };
+		0514A1B623E51783006382EE /* PNPHighlightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNPHighlightButton.swift; sourceTree = "<group>"; };
+		0514A1B723E51783006382EE /* PNPSideBordered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNPSideBordered.swift; sourceTree = "<group>"; };
+		0514A1BC23E51797006382EE /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		0514A1BD23E51797006382EE /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		0514A1C023E517A6006382EE /* CountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		0514A1C123E517A7006382EE /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		05391A6223E3A3D40082D2B2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		05391A6523E3ADC20082D2B2 /* UserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		05391A6723E3AFB50082D2B2 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		05391A6D23E3B7750082D2B2 /* SettingsSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSections.swift; sourceTree = "<group>"; };
+		05953EDD23E230E6005CA766 /* truthordare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = truthordare.entitlements; sourceTree = "<group>"; };
+		0598295623E5C7100039EC29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0598295823E5CCA90039EC29 /* ConfirmNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmNumberViewController.swift; sourceTree = "<group>"; };
+		05D6210023E0D4EA004DFBB7 /* Truth or Dare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truth or Dare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D6210323E0D4EA004DFBB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05D6210523E0D4EA004DFBB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		05D6210723E0D4EA004DFBB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +110,42 @@
 		05D6212123E0D4ED004DFBB7 /* truthordareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = truthordareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D6212523E0D4ED004DFBB7 /* truthordareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = truthordareUITests.swift; sourceTree = "<group>"; };
 		05D6212723E0D4ED004DFBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D6213723E0DAF4004DFBB7 /* ZhiMangXing-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZhiMangXing-Regular.ttf"; sourceTree = "<group>"; };
+		05D6213923E0DB2E004DFBB7 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		05D6213A23E0DB2E004DFBB7 /* TitilliumWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		05D6213B23E0DB2F004DFBB7 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		05D6213C23E0DB2F004DFBB7 /* TitilliumWeb-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		05D6213D23E0DB30004DFBB7 /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		05D6213E23E0DB31004DFBB7 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		05D6213F23E0DB31004DFBB7 /* TitilliumWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		05D6214023E0DB32004DFBB7 /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		05D6214123E0DB32004DFBB7 /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLight.ttf"; sourceTree = "<group>"; };
+		05D6214223E0DB33004DFBB7 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		05D6214323E0DB34004DFBB7 /* TitilliumWeb-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Italic.ttf"; sourceTree = "<group>"; };
+		05D6214423E0DB5B004DFBB7 /* SigmarOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SigmarOne-Regular.ttf"; sourceTree = "<group>"; };
+		05D6215123E0DB71004DFBB7 /* Quicksand-VariableFont:wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-VariableFont:wght.ttf"; sourceTree = "<group>"; };
+		05D6215323E0DBAC004DFBB7 /* PlayfairDisplay-Italic-VariableFont:wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic-VariableFont:wght.ttf"; sourceTree = "<group>"; };
+		05D6215423E0DBAD004DFBB7 /* PlayfairDisplay-VariableFont:wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-VariableFont:wght.ttf"; sourceTree = "<group>"; };
+		05D6215723E0DBC3004DFBB7 /* OpenSansCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		05D6215823E0DBC3004DFBB7 /* OpenSansCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-Light.ttf"; sourceTree = "<group>"; };
+		05D6215923E0DBC4004DFBB7 /* OpenSansCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		05D6215D23E0DBD8004DFBB7 /* Muli-Italic-VariableFont:wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Italic-VariableFont:wght.ttf"; sourceTree = "<group>"; };
+		05D6215E23E0DBD9004DFBB7 /* Muli-VariableFont:wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-VariableFont:wght.ttf"; sourceTree = "<group>"; };
+		05D6216123E0DBEF004DFBB7 /* Bangers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bangers-Regular.ttf"; sourceTree = "<group>"; };
+		05D6216323E0E193004DFBB7 /* DataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
+		05D6216523E0E2FA004DFBB7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		05F9A6DE23E240C60013EB3F /* ConfirmLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLoginViewController.swift; sourceTree = "<group>"; };
+		05F9A6E023E257A70013EB3F /* ConfirmReactivateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmReactivateViewController.swift; sourceTree = "<group>"; };
+		05F9A6E223E2631F0013EB3F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		37DAB532E462A163CA9C5AD2 /* Pods-truthordareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-truthordareTests.debug.xcconfig"; path = "Target Support Files/Pods-truthordareTests/Pods-truthordareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43B37FD520F955796C23AE99 /* Pods-truthordare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-truthordare.release.xcconfig"; path = "Target Support Files/Pods-truthordare/Pods-truthordare.release.xcconfig"; sourceTree = "<group>"; };
+		45D98C4DDEAEE6B2E11BE4D1 /* Pods-truthordare-truthordareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-truthordare-truthordareUITests.release.xcconfig"; path = "Target Support Files/Pods-truthordare-truthordareUITests/Pods-truthordare-truthordareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		739F8895BF8C99EDFAA789C3 /* Pods_truthordare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_truthordare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F02B5CB3848C50C8A5FF7D3 /* Pods-truthordare-truthordareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-truthordare-truthordareUITests.debug.xcconfig"; path = "Target Support Files/Pods-truthordare-truthordareUITests/Pods-truthordare-truthordareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		909323840E7322E3DAFCB037 /* Pods-truthordare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-truthordare.debug.xcconfig"; path = "Target Support Files/Pods-truthordare/Pods-truthordare.debug.xcconfig"; sourceTree = "<group>"; };
+		9EDE5EB28EDE51BAFED28BAB /* Pods_truthordare_truthordareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_truthordare_truthordareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C559B6034F75FEE8329D2567 /* Pods-truthordareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-truthordareTests.release.xcconfig"; path = "Target Support Files/Pods-truthordareTests/Pods-truthordareTests.release.xcconfig"; sourceTree = "<group>"; };
+		D234AA6CAD22B51D947D4518 /* Pods_truthordareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_truthordareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A73ABD808B24E3E918AAC1 /* Pods_truthordare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018171CF6E3E7FA0350E18A5 /* Pods_truthordareTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +169,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7AF1C10B8BE3A87320C8D9 /* Pods_truthordare_truthordareUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0514A1B323E51783006382EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0514A1B423E51783006382EE /* PhoneNumberPicker.storyboard */,
+				0514A1B523E51783006382EE /* PNPMenuDisabledTextField.swift */,
+				0514A1B623E51783006382EE /* PNPHighlightButton.swift */,
+				0514A1B723E51783006382EE /* PNPSideBordered.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05391A6423E3AD790082D2B2 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				05391A6523E3ADC20082D2B2 /* UserInfoHeader.swift */,
+				05391A6723E3AFB50082D2B2 /* SettingsCell.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		05391A6C23E3B7210082D2B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05391A6D23E3B7750082D2B2 /* SettingsSections.swift */,
+				0514A1BC23E51797006382EE /* Countries.swift */,
+				0514A1BD23E51797006382EE /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		05D620F723E0D4EA004DFBB7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +213,15 @@
 				05D6211923E0D4ED004DFBB7 /* truthordareTests */,
 				05D6212423E0D4ED004DFBB7 /* truthordareUITests */,
 				05D6210123E0D4EA004DFBB7 /* Products */,
+				5B6B24CA22A9221CA196F696 /* Pods */,
+				3A2882B79DCDECA140F2F8F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		05D6210123E0D4EA004DFBB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05D6210023E0D4EA004DFBB7 /* truthordare.app */,
+				05D6210023E0D4EA004DFBB7 /* Truth or Dare.app */,
 				05D6211623E0D4ED004DFBB7 /* truthordareTests.xctest */,
 				05D6212123E0D4ED004DFBB7 /* truthordareUITests.xctest */,
 			);
@@ -99,13 +231,21 @@
 		05D6210223E0D4EA004DFBB7 /* truthordare */ = {
 			isa = PBXGroup;
 			children = (
+				0514A1B323E51783006382EE /* View */,
+				05391A6C23E3B7210082D2B2 /* Model */,
+				05953EDD23E230E6005CA766 /* truthordare.entitlements */,
+				05391A6423E3AD790082D2B2 /* settings */,
+				05D6213623E0DAD5004DFBB7 /* global */,
+				05D6213523E0DAC8004DFBB7 /* extensions */,
+				05D6213423E0DAB9004DFBB7 /* viewControllers */,
+				05D6213323E0DAB1004DFBB7 /* fonts */,
 				05D6210323E0D4EA004DFBB7 /* AppDelegate.swift */,
 				05D6210523E0D4EA004DFBB7 /* SceneDelegate.swift */,
-				05D6210723E0D4EA004DFBB7 /* ViewController.swift */,
 				05D6210923E0D4EA004DFBB7 /* Main.storyboard */,
 				05D6210C23E0D4ED004DFBB7 /* Assets.xcassets */,
 				05D6210E23E0D4ED004DFBB7 /* LaunchScreen.storyboard */,
 				05D6211123E0D4ED004DFBB7 /* Info.plist */,
+				0598295623E5C7100039EC29 /* GoogleService-Info.plist */,
 			);
 			path = truthordare;
 			sourceTree = "<group>";
@@ -128,6 +268,90 @@
 			path = truthordareUITests;
 			sourceTree = "<group>";
 		};
+		05D6213323E0DAB1004DFBB7 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				05D6216123E0DBEF004DFBB7 /* Bangers-Regular.ttf */,
+				05D6215D23E0DBD8004DFBB7 /* Muli-Italic-VariableFont:wght.ttf */,
+				05D6215E23E0DBD9004DFBB7 /* Muli-VariableFont:wght.ttf */,
+				05D6215723E0DBC3004DFBB7 /* OpenSansCondensed-Bold.ttf */,
+				05D6215823E0DBC3004DFBB7 /* OpenSansCondensed-Light.ttf */,
+				05D6215923E0DBC4004DFBB7 /* OpenSansCondensed-LightItalic.ttf */,
+				05D6215323E0DBAC004DFBB7 /* PlayfairDisplay-Italic-VariableFont:wght.ttf */,
+				05D6215423E0DBAD004DFBB7 /* PlayfairDisplay-VariableFont:wght.ttf */,
+				05D6215123E0DB71004DFBB7 /* Quicksand-VariableFont:wght.ttf */,
+				05D6214423E0DB5B004DFBB7 /* SigmarOne-Regular.ttf */,
+				05D6214023E0DB32004DFBB7 /* TitilliumWeb-Black.ttf */,
+				05D6213B23E0DB2F004DFBB7 /* TitilliumWeb-Bold.ttf */,
+				05D6213F23E0DB31004DFBB7 /* TitilliumWeb-BoldItalic.ttf */,
+				05D6214123E0DB32004DFBB7 /* TitilliumWeb-ExtraLight.ttf */,
+				05D6213C23E0DB2F004DFBB7 /* TitilliumWeb-ExtraLightItalic.ttf */,
+				05D6214323E0DB34004DFBB7 /* TitilliumWeb-Italic.ttf */,
+				05D6213923E0DB2E004DFBB7 /* TitilliumWeb-Light.ttf */,
+				05D6213A23E0DB2E004DFBB7 /* TitilliumWeb-LightItalic.ttf */,
+				05D6214223E0DB33004DFBB7 /* TitilliumWeb-Regular.ttf */,
+				05D6213E23E0DB31004DFBB7 /* TitilliumWeb-SemiBold.ttf */,
+				05D6213D23E0DB30004DFBB7 /* TitilliumWeb-SemiBoldItalic.ttf */,
+				05D6213723E0DAF4004DFBB7 /* ZhiMangXing-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		05D6213423E0DAB9004DFBB7 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				05D6210723E0D4EA004DFBB7 /* ViewController.swift */,
+				05D6216523E0E2FA004DFBB7 /* LoginViewController.swift */,
+				05F9A6DE23E240C60013EB3F /* ConfirmLoginViewController.swift */,
+				05F9A6E023E257A70013EB3F /* ConfirmReactivateViewController.swift */,
+				05F9A6E223E2631F0013EB3F /* MenuViewController.swift */,
+				05391A6223E3A3D40082D2B2 /* SettingsViewController.swift */,
+				0514A1AF23E4EDE6006382EE /* accountViewController.swift */,
+				0514A1C023E517A6006382EE /* CountriesViewController.swift */,
+				0514A1C123E517A7006382EE /* PhoneNumberViewController.swift */,
+				0598295823E5CCA90039EC29 /* ConfirmNumberViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		05D6213523E0DAC8004DFBB7 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		05D6213623E0DAD5004DFBB7 /* global */ = {
+			isa = PBXGroup;
+			children = (
+				05D6216323E0E193004DFBB7 /* DataStructure.swift */,
+			);
+			path = global;
+			sourceTree = "<group>";
+		};
+		3A2882B79DCDECA140F2F8F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				739F8895BF8C99EDFAA789C3 /* Pods_truthordare.framework */,
+				9EDE5EB28EDE51BAFED28BAB /* Pods_truthordare_truthordareUITests.framework */,
+				D234AA6CAD22B51D947D4518 /* Pods_truthordareTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B6B24CA22A9221CA196F696 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				909323840E7322E3DAFCB037 /* Pods-truthordare.debug.xcconfig */,
+				43B37FD520F955796C23AE99 /* Pods-truthordare.release.xcconfig */,
+				8F02B5CB3848C50C8A5FF7D3 /* Pods-truthordare-truthordareUITests.debug.xcconfig */,
+				45D98C4DDEAEE6B2E11BE4D1 /* Pods-truthordare-truthordareUITests.release.xcconfig */,
+				37DAB532E462A163CA9C5AD2 /* Pods-truthordareTests.debug.xcconfig */,
+				C559B6034F75FEE8329D2567 /* Pods-truthordareTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05D6212A23E0D4ED004DFBB7 /* Build configuration list for PBXNativeTarget "truthordare" */;
 			buildPhases = (
+				2AEBA7DF5B2E904339BCF2C8 /* [CP] Check Pods Manifest.lock */,
 				05D620FC23E0D4EA004DFBB7 /* Sources */,
 				05D620FD23E0D4EA004DFBB7 /* Frameworks */,
 				05D620FE23E0D4EA004DFBB7 /* Resources */,
+				C2FA84ACC6D7D5E5E437B9A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,13 +371,14 @@
 			);
 			name = truthordare;
 			productName = truthordare;
-			productReference = 05D6210023E0D4EA004DFBB7 /* truthordare.app */;
+			productReference = 05D6210023E0D4EA004DFBB7 /* Truth or Dare.app */;
 			productType = "com.apple.product-type.application";
 		};
 		05D6211523E0D4ED004DFBB7 /* truthordareTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05D6212D23E0D4ED004DFBB7 /* Build configuration list for PBXNativeTarget "truthordareTests" */;
 			buildPhases = (
+				DE107B1740471A48BA37B3C0 /* [CP] Check Pods Manifest.lock */,
 				05D6211223E0D4ED004DFBB7 /* Sources */,
 				05D6211323E0D4ED004DFBB7 /* Frameworks */,
 				05D6211423E0D4ED004DFBB7 /* Resources */,
@@ -170,9 +397,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05D6213023E0D4ED004DFBB7 /* Build configuration list for PBXNativeTarget "truthordareUITests" */;
 			buildPhases = (
+				3ED9212923C520125E34AE61 /* [CP] Check Pods Manifest.lock */,
 				05D6211D23E0D4ED004DFBB7 /* Sources */,
 				05D6211E23E0D4ED004DFBB7 /* Frameworks */,
 				05D6211F23E0D4ED004DFBB7 /* Resources */,
+				0D9721E7A000A76D2A52297B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,7 +437,7 @@
 				};
 			};
 			buildConfigurationList = 05D620FB23E0D4EA004DFBB7 /* Build configuration list for PBXProject "truthordare" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,8 +462,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				05D6211023E0D4ED004DFBB7 /* LaunchScreen.storyboard in Resources */,
+				0598295723E5C7110039EC29 /* GoogleService-Info.plist in Resources */,
+				05D6214D23E0DB61004DFBB7 /* TitilliumWeb-LightItalic.ttf in Resources */,
+				05D6214923E0DB61004DFBB7 /* TitilliumWeb-ExtraLight.ttf in Resources */,
+				05D6216023E0DBDA004DFBB7 /* Muli-VariableFont:wght.ttf in Resources */,
 				05D6210D23E0D4ED004DFBB7 /* Assets.xcassets in Resources */,
+				05D6215223E0DB71004DFBB7 /* Quicksand-VariableFont:wght.ttf in Resources */,
+				05D6213823E0DAF4004DFBB7 /* ZhiMangXing-Regular.ttf in Resources */,
+				05D6214723E0DB61004DFBB7 /* TitilliumWeb-Bold.ttf in Resources */,
+				05D6214A23E0DB61004DFBB7 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				05D6214C23E0DB61004DFBB7 /* TitilliumWeb-Light.ttf in Resources */,
+				05D6215023E0DB61004DFBB7 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				05D6215C23E0DBC4004DFBB7 /* OpenSansCondensed-LightItalic.ttf in Resources */,
+				05D6215A23E0DBC4004DFBB7 /* OpenSansCondensed-Bold.ttf in Resources */,
+				05D6214E23E0DB61004DFBB7 /* TitilliumWeb-Regular.ttf in Resources */,
+				05D6215623E0DBAD004DFBB7 /* PlayfairDisplay-VariableFont:wght.ttf in Resources */,
+				05D6215523E0DBAD004DFBB7 /* PlayfairDisplay-Italic-VariableFont:wght.ttf in Resources */,
+				05D6215F23E0DBDA004DFBB7 /* Muli-Italic-VariableFont:wght.ttf in Resources */,
+				05D6215B23E0DBC4004DFBB7 /* OpenSansCondensed-Light.ttf in Resources */,
+				05D6214B23E0DB61004DFBB7 /* TitilliumWeb-Italic.ttf in Resources */,
+				05D6214523E0DB5B004DFBB7 /* SigmarOne-Regular.ttf in Resources */,
 				05D6210B23E0D4EA004DFBB7 /* Main.storyboard in Resources */,
+				05D6214823E0DB61004DFBB7 /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				05D6214F23E0DB61004DFBB7 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				05D6214623E0DB61004DFBB7 /* TitilliumWeb-Black.ttf in Resources */,
+				0514A1B823E51783006382EE /* PhoneNumberPicker.storyboard in Resources */,
+				05D6216223E0DBEF004DFBB7 /* Bangers-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +507,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D9721E7A000A76D2A52297B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-truthordare-truthordareUITests/Pods-truthordare-truthordareUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-truthordare-truthordareUITests/Pods-truthordare-truthordareUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-truthordare-truthordareUITests/Pods-truthordare-truthordareUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AEBA7DF5B2E904339BCF2C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-truthordare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED9212923C520125E34AE61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-truthordare-truthordareUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2FA84ACC6D7D5E5E437B9A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-truthordare/Pods-truthordare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-truthordare/Pods-truthordare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-truthordare/Pods-truthordare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE107B1740471A48BA37B3C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-truthordareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05D620FC23E0D4EA004DFBB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				05D6210823E0D4EA004DFBB7 /* ViewController.swift in Sources */,
+				05F9A6E123E257A70013EB3F /* ConfirmReactivateViewController.swift in Sources */,
+				0514A1B023E4EDE6006382EE /* accountViewController.swift in Sources */,
+				0514A1C223E517A7006382EE /* CountriesViewController.swift in Sources */,
 				05D6210423E0D4EA004DFBB7 /* AppDelegate.swift in Sources */,
+				0514A1BE23E51797006382EE /* Countries.swift in Sources */,
+				0514A1BB23E51783006382EE /* PNPSideBordered.swift in Sources */,
+				05F9A6DF23E240C60013EB3F /* ConfirmLoginViewController.swift in Sources */,
+				0514A1BF23E51797006382EE /* Country.swift in Sources */,
+				0514A1BA23E51783006382EE /* PNPHighlightButton.swift in Sources */,
+				0598295923E5CCA90039EC29 /* ConfirmNumberViewController.swift in Sources */,
 				05D6210623E0D4EA004DFBB7 /* SceneDelegate.swift in Sources */,
+				0514A1C323E517A7006382EE /* PhoneNumberViewController.swift in Sources */,
+				05D6216623E0E2FA004DFBB7 /* LoginViewController.swift in Sources */,
+				05391A6E23E3B7750082D2B2 /* SettingsSections.swift in Sources */,
+				05D6216423E0E193004DFBB7 /* DataStructure.swift in Sources */,
+				05F9A6E323E2631F0013EB3F /* MenuViewController.swift in Sources */,
+				05391A6323E3A3D40082D2B2 /* SettingsViewController.swift in Sources */,
+				05391A6623E3ADC20082D2B2 /* UserInfoHeader.swift in Sources */,
+				0514A1B923E51783006382EE /* PNPMenuDisabledTextField.swift in Sources */,
+				05391A6823E3AFB50082D2B2 /* SettingsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +806,10 @@
 		};
 		05D6212B23E0D4ED004DFBB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909323840E7322E3DAFCB037 /* Pods-truthordare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = truthordare/truthordare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N25K2AQW53;
 				INFOPLIST_FILE = truthordare/Info.plist;
@@ -442,16 +818,18 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexhamnetwork.truthordare;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Truth or Dare";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		05D6212C23E0D4ED004DFBB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B37FD520F955796C23AE99 /* Pods-truthordare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = truthordare/truthordare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N25K2AQW53;
 				INFOPLIST_FILE = truthordare/Info.plist;
@@ -460,14 +838,15 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexhamnetwork.truthordare;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Truth or Dare";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		05D6212E23E0D4ED004DFBB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37DAB532E462A163CA9C5AD2 /* Pods-truthordareTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +869,7 @@
 		};
 		05D6212F23E0D4ED004DFBB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C559B6034F75FEE8329D2567 /* Pods-truthordareTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +892,7 @@
 		};
 		05D6213123E0D4ED004DFBB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F02B5CB3848C50C8A5FF7D3 /* Pods-truthordare-truthordareUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +913,7 @@
 		};
 		05D6213223E0D4ED004DFBB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D98C4DDEAEE6B2E11BE4D1 /* Pods-truthordare-truthordareUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
